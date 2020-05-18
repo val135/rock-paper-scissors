@@ -62,7 +62,7 @@ function game(userChoice) {
         ) {
             result.innerHTML = `Computer picked ${pcChoice}, you Lost!`;
             pcScore++;
-            pcScoreResult.innerText = userScore;
+            pcScoreResult.innerText = pcScore;
       } else {
         result.innerHTML = `Computer picked ${pcChoice} too, It is a tie!`;
       }
