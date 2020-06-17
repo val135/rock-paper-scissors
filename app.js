@@ -15,6 +15,9 @@ let scissorsBtn = document.getElementById('scissors');
     //result of the game
 let result = document.querySelector('.result');
 
+    // reset
+let resetBtn = document.getElementById('reset');
+
 
 
 //Listeners
@@ -30,6 +33,9 @@ function elements() { //The 3 principal listeners are grouped here. Each one has
         game('scissors');
     })
 }
+
+resetBtn.addEventListener('click', resetScore);
+
 
     
 //Functions
@@ -69,6 +75,15 @@ function game(userChoice) {
 }
 
 
+function resetScore() {
+   /*
+    e.preventDefault();
+    userScoreResult =0;
+    pcScoreResult =0;
+    */
+}
+
+
 
 /*
 function wins() {
@@ -84,3 +99,4 @@ function lose() {
 
 elements();
 pcSelectElement();
+resetScore();

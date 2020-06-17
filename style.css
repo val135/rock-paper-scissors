@@ -27,7 +27,7 @@ header {
 .icons {
     display: flex;
     width: 400px;
-    margin: 50px auto 40px auto;
+    margin: 30px auto 50px auto;
     justify-content: space-between;
     cursor: pointer;
 }
@@ -45,3 +45,12 @@ header {
     font-size: 25px;
 }
 
+#reset {
+    font-size: 20px;
+    width: 100px;
+    margin: 30px auto;
+    border: 2px solid #ff6f69;
+    font-family: 'Fredoka One', cursive;
+    color: #ffeead;
+    background:  #ff6f69;
+}
